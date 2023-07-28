@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" href="./images/image-icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+  <title>Landscape</title>
 </head>
 <body>
-  
+  <h1>You Can Update the Spacing, Blur, and Base Color of the Image Below</h1>
+  <form>
+    <label for="spacing">Spacing: </label>
+    <input type="range" id="spacing">
+    <label for="blur">Blur: </label>
+    <input type="range" id="blur">
+    <label for="base-color">Base Color: </label>
+    <input type="color" id="base-color">
+  </form>
+  <figure>
+    <img src="./images/landscape.jpg" alt="colorful landscape">
+  </figure>
 </body>
 </html>
