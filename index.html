@@ -4,22 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./images/image-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <script src="./script.js" defer></script>
   <title>Landscape</title>
 </head>
 <body>
-  <h1>You Can Update the Spacing, Blur, and Base Color of the Image Below</h1>
+  <h1>Change Spacing, Blur, or <span>Base Color</span></h1>
   <form>
-    <label for="spacing">Spacing: </label>
-    <input type="range" id="spacing">
-    <label for="blur">Blur: </label>
-    <input type="range" id="blur">
-    <label for="base-color">Base Color: </label>
-    <input type="color" id="base-color">
+    <label for="spacing">Spacing: 
+      <input type="range" id="spacing">
+    </label>
+    <label for="blur">Blur: 
+      <input type="range" id="blur">
+    </label>
+    <label for="base-color">Base Color: 
+      <input type="color" id="base-color">
+    </label>
   </form>
   <figure>
     <img src="./images/landscape.jpg" alt="colorful landscape">
   </figure>
+  <!-- add footer -->
 </body>
 </html>
