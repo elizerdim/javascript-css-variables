@@ -1,8 +1,8 @@
 :root {
-  /* font-size: 200%; */
-  --base: #ffc600;
+  /* font-size: 150%; */
   --spacing: 2%;
   --blur: 2px;
+  --base-color: #ffc600;
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
 }
 
 h1 > span {
-  color: var(--base);
+  color: var(--base-color);
 }
 
 form {
@@ -53,7 +53,7 @@ figure {
   max-width: 1000px;
   padding: var(--spacing);
   box-sizing: border-box;
-  background-color: var(--base);
+  background-color: var(--base-color);
   filter: blur(var(--blur));
 }
 
