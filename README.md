@@ -72,4 +72,4 @@ I want to get better at JavaScript DOM manipulation and learn further concepts, 
 
 - [document.documentElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement) - MDN's reference for documentElement property on the document object. Returns the root element of the document.
 - [setProperty() method](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty) - MDN's reference for setProperty() method. Sets a new value for a property on a CSS rule.
-- ['input' event](https://stackoverflow.com/questions/66065572/see-how-the-color-is-being-changed-with-input-type-color) - I learned about the 'input' event in JavaScript from an answer to this StackOverflow entry. It updates the value of the manipulated property in real time.
+- ['input' event](https://stackoverflow.com/a/66065689) - I learned about the 'input' event in JavaScript from an answer to this StackOverflow entry. It updates the value of the manipulated property in real time.
